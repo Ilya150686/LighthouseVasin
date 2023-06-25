@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:shadowColor="#000011"
+        android:textColor="#000011"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="280"
+        android:text="МАЯКИ КРОНШТАДТА"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_app"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="О приложении"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000011"
+        android:layout_height="wrap_content"
+        android:text="Версия приложения: 1.1"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Приложение находится в разработке, постоянно улучшается и дополняется. "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000011"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_nikolaevsky"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_marginTop="280dp"
+        android:layout_height="wrap_content"
+        android:text="Николаевский маяк"/>
+
+    <Button
+        android:id="@+id/btn_tolbuhin"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Толбухин маяк"/>
+
+    <Button
+        android:id="@+id/btn_derevyanny"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Деревянный маяк"/>
+
+    <Button
+        android:id="@+id/btn_zadniy"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Задний створный маяк МК"/>
+
+    <Button
+        android:id="@+id/btn_peredniy"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="передний створный маяк мк" />
+
+
+
+</LinearLayout>
